@@ -9,8 +9,4 @@ To run the server build the containers with
 docker-compose build
 ```
 
-and run the golang app
-
-```sh
-docker exec simple-rate-limiter-service-1 go run main.go
-```
+When building the container it also runs the executable

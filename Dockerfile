@@ -5,5 +5,4 @@ WORKDIR /usr/src/app
 COPY src .
 RUN go build -v -o /usr/local/bin/app ./...
 
-# EXPOSE 9001
 CMD ["app"]
