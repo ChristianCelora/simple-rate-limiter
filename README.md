@@ -6,7 +6,7 @@ Simple rate limiter written in GO
 To run the server build the containers with
 
 ```sh
-docker compose build
+docker-compose build
 ```
 
 and run the golang app
