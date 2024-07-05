@@ -3,14 +3,10 @@ version: '3'
 services:
 
   service: 
-    # image: 'golang:1.22.3-alpine'
     build: 
       context: .
     depends_on:
       - redis
-    # volumes:
-    #  - ./src:/usr/src/app
-    # entrypoint: ["sh", "/usr/src/app/entrypoint.sh"]
     ports:
       - 9001:9001
 
